@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del Inge para la Doc ❤️</title>
+    <style>
+        .body{
+            background-color: rgb(186, 196, 197);
+            text-align: center;
+        }
+
+      .body__ttle{
+        color: rgb(28, 169, 194);
+      }  
+
+      .body__img{
+        width: 50%;
+      }
+    </style>
+</head>
+
+<body class="body">
+    <h1 class="body__title">❤️tengo ganas de besarte a cada rato❤️ PD: Así me sentí cuando te bese hasta arriba, en tepoztlán 🙈</h1>
+    <img 
+    src="https://i.pinimg.com/originals/3d/79/a7/3d79a731666359ae3012a22540c082a1.jpg" 
+    alt="crepusculo" class="body__img"/>
+    <button id="yes">Yo tambien ya quiero besarte 🙈 </button>
+    <button id="no">Y si mejor te meto a la carcel? </button>
+
+    <script>
+        const vutonsi = document.getElementById('yes');
+        const vutoNo = document.getElementById('no');
+
+        const que_bueno_que_aceptaste  = () => {
+            alert('Ahora me tendras que besar o te demando🙈');
+            alert('seguramente diras "aaah ingeniero mañoso" jaja');
+            alert('pero ni modo, asi es esto y ahora me tendras que dar muchos besitos');
+            alert('o no quieres? si no puedes regresar y darle click en el otro boton para que me encarcelen, aunque dudo que puedas jiji 😔')
+            alert('o prefieres una pelea ?');
+            alert('mejor ya di que prefieres al de sabritas o a tu super amigo el chiquilin😔');
+            alert('ps si quieres ya dejame con el botijas 😓');
+            alert('No pasa nada, todo estará bien, siempre esta bien 😭😭');
+            alert('La tristeza me abraza mientras escribo estas líneas, sabiendo que el momento de la despedida se acerca inexorablemente. He llegado a comprender que, a veces, amar significa dejar ir, aun cuando cada fibra de mi ser clama por retener lo que amo con todas mis fuerzas. No puedo negar que preferiría que el tiempo se detuviera en este preciso instante, que cada momento juntos se prolongara hasta la eternidad. Prometo recordarte con cariño, con gratitud y con el más profundo amor que mi alma pueda albergar. Siempre serás una parte indeleble de mi historia, un rayo de luz en mis días oscuros, un susurro de esperanza en las noches solitarias. Si alguna vez necesitas un refugio en medio de la tormenta, recuerda que mi corazón estará siempre abierto para ti, listo para acogerte con amor incondicional.');
+            alert('aaaay yaaaa, creo que me pase de dramaticoo jajaj. ven y besame, andale, que te extrañe demasiado 😓');
+            alert('TE QUIEROOO MUCHO MUCHO MI DOCTORA, MI PEQUITAS BONITAS, MI RAYITO DE SOL❤️');
+            alert('pero entonces si me vas a besar o nadota?');
+            alert('Dejando a un lado el drama jaja. Anhelo que este amor que nos une perdure por siempre, que cada amanecer sea una nueva oportunidad para celebrar nuestra conexión única, para explorar juntos los misterios del universo y para crecer en amor y en complicidad con cada paso que damos. Te prometo quererte con todo mi ser, con cada fibra de mi ser, con la misma intensidad con la que el sol brilla en el cielo y las estrellas adornan la noche. Eres mi destino, mi hogar, mi eterna compañera de aventuras, y haré todo lo que esté a mi alcance para asegurarme de que nuestro amor perdure por toda la eternidad. Gracias por ser la luz de mi vida, por regalarme tu amor incondicional y por hacerme el hombre más feliz del mundo. Juntos, somos invencibles como Grú y lucy, como Wall-e y Eva, como Carl y ellie');
+            alert('Espero y te haya gustado, queria hacer algo diferente. TQM ❤️')
+            location.href = 'https://www.youtube.com/watch?v=n4cFH3EmOLk=1:53s';
+        };
+        const evitar = () => {
+            vutoNo.style.position = 'absolute';
+            vutoNo.style.top = (Math.random()* window.innerHeight) + 'px';
+            vutoNo.style.left = (Math.random()* window.innerHeight) + 'px';
+        };
+
+        vutonsi.addEventListener('click', que_bueno_que_aceptaste);
+        vutoNo.addEventListener('mouseover', evitar);
+    </script>
+</body>
+
+</html>
